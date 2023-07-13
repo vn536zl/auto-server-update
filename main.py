@@ -1,5 +1,4 @@
 import time
-from distutils.dir_util import copy_tree
 
 import io
 import os
@@ -16,7 +15,7 @@ webpage_url = "https://www.minecraft.net/en-us/download/server/bedrock"
 # Replace value with location of your server
 server_directory = "old_server"
 # Use IP and Port of your server
-server = BedrockServer.lookup("localhost:19132")
+server = BedrockServer.lookup("72.206.3.126:19132")
 
 
 # Use selenium to retrieve the download url of new Bedrock Server
@@ -61,7 +60,8 @@ def copy_files():
     for file in file_names:
         shutil.copy(f'updated_server/{file}', server_directory)
     for folder in folder_names:
-        copy_tree(f'updated_server/{folder}', f'{server_directory}/{folder}')
+        shutil.rmtree(f'{server_directory}/{folder}')
+        shutil.copytree(f'updated_server/{folder}', f'{server_directory}/{folder}')
 
 
 # Compare the download url version to the currently running server to determine if an update is needed
@@ -110,12 +110,19 @@ def restart_server():
     os.system("bedrock_server")
 
 
+# Delete the extracted download files
+def clean_up():
+    print('Removing temp files...')
+    shutil.rmtree("updated_server")
+
+
 def main():
     download_url = get_file_link()
     if determine_update(download_url):
         get_file(download_url)
         kill_server()
         copy_files()
+        clean_up()
         restart_server()
 
 
