@@ -15,7 +15,7 @@ webpage_url = "https://www.minecraft.net/en-us/download/server/bedrock"
 # Replace value with location of your server
 server_directory = "old_server"
 # Use IP and Port of your server
-server = BedrockServer.lookup("72.206.3.126:19132")
+server = BedrockServer.lookup("serverip:19132")
 
 
 # Use selenium to retrieve the download url of new Bedrock Server
