@@ -15,48 +15,48 @@ Scripts for Automatically updating a Minecraft Bedrock edition Server.
 
 1b. Or install the zip file from GitHub and extract it:
 
-![Screenshot 2023-07-13 131118.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20131118.png)
+![Screenshot 2023-07-13 131118.png](ReadMeImages/Screenshot%202023-07-13%20131118.png)
 
 2. Copy the files Into the directory with your Bedrock Server folder:
 
-![copy.png](..%2F..%2FPictures%2FScreenshots%2Fcopy.png)
+![copy.png](ReadMeImages/copy.png)
 
-![Screenshot 2023-07-13 131835.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20131835.png)
+![Screenshot 2023-07-13 131835.png](ReadMeImages/Screenshot%202023-07-13%20131835.png)
 
 ## Set-up:
 
 1. Using Notepad or any IDE edit the main.py file and replace the variables at the top:
 
-![Screenshot 2023-07-13 132527.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20132527.png)
+![Screenshot 2023-07-13 132527.png](ReadMeImages/Screenshot%202023-07-13%20132527.png)
 
-![Screenshot 2023-07-13 133258.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20133258.png)
+![Screenshot 2023-07-13 133258.png](ReadMeImages/Screenshot%202023-07-13%20133258.png)
 
 
 2. Use Windows Task Scheduler to make a repeatable run:
 
-![Screenshot 2023-07-13 133531.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20133531.png)
+![Screenshot 2023-07-13 133531.png](ReadMeImages/Screenshot%202023-07-13%20133531.png)
 
 3. Select "Action > Create Basic Task":
 
-![Screenshot 2023-07-13 133906.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20133906.png)
+![Screenshot 2023-07-13 133906.png](ReadMeImages/Screenshot%202023-07-13%20133906.png)
 
 4. Name and describe the task:
 
-![Screenshot 2023-07-13 133949.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20133949.png)
+![Screenshot 2023-07-13 133949.png](ReadMeImages/Screenshot%202023-07-13%20133949.png)
 
 5. Choose when to run the task:
 
-![Screenshot 2023-07-13 134058.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20134058.png)
+![Screenshot 2023-07-13 134058.png](ReadMeImages/Screenshot%202023-07-13%20134058.png)
 
-![Screenshot 2023-07-13 134133.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20134133.png)
+![Screenshot 2023-07-13 134133.png](ReadMeImages/Screenshot%202023-07-13%20134133.png)
 
 6. Choose start a program as the action:
 
-![Screenshot 2023-07-13 134246.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20134246.png)
+![Screenshot 2023-07-13 134246.png](ReadMeImages/Screenshot%202023-07-13%20134246.png)
 
 7. Select browse on the next screen and choose the windows_update.bat file:
 
-![Screenshot 2023-07-13 134411.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-07-13%20134411.png)
+![Screenshot 2023-07-13 134411.png](ReadMeImages/Screenshot%202023-07-13%20134411.png)
 
 8. Click Next and Finish
 
