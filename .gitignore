@@ -5,6 +5,8 @@
 # Testing
 /old_server
 /updated_server
+/jserver
+*.jar
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
